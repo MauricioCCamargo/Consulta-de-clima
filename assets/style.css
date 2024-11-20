@@ -1,0 +1,35 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	align-content: center;
+}
+
+.background-image {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.main-container {
+	margin: auto;
+	background-color: white;
+	width: 40vw;
+	height: 40vh;
+	border-radius: 15px;
+	align-content: center;
+}
+
+.field {
+	border-radius: 10px;
+	/* height: ; */
+}
