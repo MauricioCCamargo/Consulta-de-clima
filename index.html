@@ -5,14 +5,34 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<link href="assets/style.css" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+		/>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/toastify-js"
+		></script>
+		<script src="main.js"></script>
 	</head>
 	<body>
 		<img class="background-image" src="images/background.jpeg" />
-		<header></header>
 		<section>
-			<div class="main-container">
-				<div class="fields">
-					<input class="field" type="text" placeholder="Local a pesquisar." />
+			<div class="main-container one-column-grid">
+				<div class="fields one-column-grid">
+					<div class="field grid-row">
+						<input
+							id="inpLocal"
+							class="text-field"
+							type="text"
+							placeholder="Local a pesquisar."
+						/>
+					</div>
+					<div class="grid-row">
+						<button id="btnSearch" class="btn">Buscar</button>
+					</div>
+					<div id="results" class="w-100 one-column-grid"></div>
 				</div>
 			</div>
 		</section>
