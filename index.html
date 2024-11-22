@@ -14,13 +14,17 @@
 			type="text/javascript"
 			src="https://cdn.jsdelivr.net/npm/toastify-js"
 		></script>
+		<script src="weather_service.js"></script>
 		<script src="main.js"></script>
 	</head>
 	<body>
 		<img class="background-image" src="images/background.jpeg" />
 		<section>
-			<div class="main-container one-column-grid">
+			<div class="container one-column-grid">
 				<div class="fields one-column-grid">
+					<div>
+						<span>Escreva um local para pesquisar seu clima</span>
+					</div>
 					<div class="field grid-row">
 						<input
 							id="inpLocal"
@@ -34,6 +38,11 @@
 					</div>
 					<div id="results" class="w-100 one-column-grid"></div>
 				</div>
+			</div>
+		</section>
+		<section>
+			<div class="one-column-grid">
+				<div id="weather" class="weather-result one-column-grid d-none"></div>
 			</div>
 		</section>
 	</body>

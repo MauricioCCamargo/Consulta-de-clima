@@ -18,13 +18,14 @@ body {
 	z-index: -1;
 }
 
-.main-container {
+.container {
 	margin-top: 5%;
 	background-color: white;
 	width: 40vw;
 	min-height: 40vh;
 	border-radius: 15px;
 	box-shadow: 5px 5px 20px black;
+	padding-bottom: 5%;
 }
 
 .one-column-grid {
@@ -71,7 +72,6 @@ body {
 	display: grid;
 	justify-items: center;
 	grid-template-columns: 25% 25% 25% 25%;
-	grid-auto-rows: 2.5vh;
 }
 
 .grid-row-border {
@@ -99,4 +99,17 @@ body {
 
 .center-text {
 	text-align: center;
+}
+
+.weather-result {
+	width: 15vw;
+	min-height: 20vh;
+	background-color: white;
+	margin-top: 5%;
+	border-radius: 15px;
+	box-shadow: 5px 5px 20px black;
+}
+
+.d-none {
+	display: none;
 }
