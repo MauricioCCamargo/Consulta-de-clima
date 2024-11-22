@@ -19,6 +19,7 @@ body {
 }
 
 .container {
+	min-width: 630px;
 	margin-top: 5%;
 	background-color: white;
 	width: 40vw;
@@ -102,6 +103,7 @@ body {
 }
 
 .weather-result {
+	min-width: 239px;
 	width: 15vw;
 	min-height: 20vh;
 	background-color: white;
