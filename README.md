@@ -1,8 +1,8 @@
-# Site simples para visualizar a condição climatica de qualquer lugar no mundo.
+# Site simples para visualizar a condição climática de qualquer lugar no mundo.
 
 Feito utilizando a API: https://open-meteo.com/
 
-utilizadas também a biblioteca de toast: https://www.npmjs.com/package/toastify-js.
+utilizada também a biblioteca de toast: https://www.npmjs.com/package/toastify-js.
 
 ## Para a execução do site localmente basta baixar os arquivos e executar o arquivo index.html
 
